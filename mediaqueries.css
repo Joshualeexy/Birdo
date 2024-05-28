@@ -1,0 +1,311 @@
+@media (width<600px) {
+    .right-nav >div>button{
+        display: none;
+    }.right-nav >div>i{
+        display: none;
+    }
+
+
+
+
+
+
+    :root {
+  --bg-color: #ebebea;
+  --btns-color: rgb(9, 153, 211);
+  --text-color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sect1 {
+  background-color: #ebebea;
+  height: 100%;
+  flex-direction: column;
+  align-items: start;
+}
+.sect1 > div > h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+.sect1 > div > p {
+  font-size: .9rem;
+  margin-bottom: 50px;
+  line-height: 2rem;
+  width: 80vw;
+
+}
+
+.sect1-img {
+  background-image: url(images/slider.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+margin-bottom: 100px;}
+.sect1 > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sect2 {
+  width: 100%;
+  height: 100%;
+  padding: 200px 20px;
+}
+.sect2-text {
+  width: 100%;
+  padding-right: 0px;
+}
+.sect2-text > div > h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.sect2-text > div > p {
+  font-size: 1rem;
+  color: white;
+  line-height: 2rem;
+  margin-bottom: 60px;
+}
+.sect3 {
+  background-color: var(--bg-color);
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  padding-bottom: 0;
+}
+.sect3 > div {
+    padding: 70px 15px;
+  padding-bottom: 0px;
+  height: unset;
+}
+.sect3 > div > h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+.sect3 > div > p {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.sliders > div > img {
+  width: 100%;
+  height: 400px;
+}
+.sliders {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: unset;
+  position: unset;
+  height: unset;
+  gap: 20px;
+}
+.w70 {
+  width: 100%;
+  height: unset;
+}
+.w30 {
+  width: 100%;
+  height: unset;
+}
+.fth {
+  position:unset;
+  top: 0;
+}
+.fthi {
+  height: unset;
+
+}
+.fsecs {
+  position: unset;
+  top: 0;
+}
+.sect3-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  min-height: 120px;
+  padding-bottom: 20px;
+}
+.w70 > a,
+.w30 > a {
+  background-color: var(--bg-color);
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 20px;
+  display: none;
+}
+.sect4 {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-color);
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+.s4t {
+ padding: 0px;
+  padding: 50px 20px;
+  text-align: right;
+  margin-bottom: 100px;
+}
+.s4t > h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.s4i {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.clint {
+  margin-top: 0px;
+  margin-bottom: 20px;
+position: absolute;
+ bottom: 180px;
+}
+.s4i > div {
+  height: unset;
+  width: 100%;
+  margin-right: 0px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 15px 30px 15px;
+  position: relative;
+}
+.s4i p {
+  line-height: 2rem;
+}
+.s4i > img {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+.cliname {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.newsletter {
+  padding: 20px;
+  
+}
+.newsletter > h1,.form-element>h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.newsletter > p {
+  margin-bottom: 40px;
+  line-height: 2rem;
+}
+.newsletter > div {
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+}
+.newsletter > div > input {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.newsletter > div > button {
+  width: 50%;
+
+}
+
+.sect5{
+  width: 100%;
+  padding: 30px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sect5>div>img{
+width: 100%;
+}
+.sect5>div>form{
+  width: 98vw;
+  height: 100%;
+  padding: 30px 20px;
+  display: flex;
+justify-content: unset;
+gap: 30px;
+}
+.form-element{
+   width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+.form-element>button{
+
+  width: 45%;
+}
+
+
+footer{
+  width: 100%;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-logo{
+  width: 100%;
+
+}
+footer>.links{
+  width: 100%;
+  display: grid;
+  grid-template-columns:1fr;
+  gap: 30px;
+}
+
+
+footer>.links>ul>h1{
+margin-bottom: 10px;
+font-size: 1.5rem;
+}
+.socials{
+    width: 100%;
+
+}
+.socials>ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  gap: 20px;
+
+}
+
+footer>p{
+
+  width: 100%;
+}
+.sect1-text{
+  margin: 0;
+    margin-bottom: 50px;
+    width: 100% !important;
+    padding-left: 20px;
+
+}
+
+
+}
